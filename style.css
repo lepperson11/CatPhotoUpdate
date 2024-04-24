@@ -1,7 +1,7 @@
 body {
   text-align: center;
   background-color: rgb(230, 217, 170);
-  color: black;
+  color: #09a6b7;
 }
 p {
   display: flex;
@@ -13,7 +13,7 @@ p {
   padding-left: 45%;
 }
 header {
-  background-color: #0adaf1;
+  background-color: #09a6b7;
   padding: 20px;
   text-align: center;
   position: fixed;
@@ -27,4 +27,39 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 150px;
+}
+a {
+  color: gray;
+}
+h2 {
+  font-size: 2em;
+}
+ul,
+ol {
+  display: inline-block;
+}
+.firstPicture {
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 20%;
+}
+
+.secondPicture {
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+body section {
+  display: flex;
+  flex: 1 0 auto;
 }

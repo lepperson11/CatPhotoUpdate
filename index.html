@@ -13,7 +13,6 @@
       <header>
         <h1>CatPhotoApp</h1>
       </header>
-      <section>
         <h2 class="First">Cat Photos</h2>
         <!-- TODO: Add link to cat photos -->
         <p>
@@ -26,22 +25,23 @@
             src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
             alt="A cute orange cat lying on its back."
         /></a>
-      </section>
-      <section>
         <h2>Cat Lists</h2>
+      <section>
+        <section class="firstPicture">
         <h3>Things cats love:</h3>
         <ul>
-          <li>cat nip</li>
-          <li>laser pointers</li>
-          <li>lasagna</li>
+          <li class="f1">cat nip</li>
+          <li id="f2">laser pointers</li>
+          <li id="f3">lasagna</li>
         </ul>
-        <figure>
           <img
             src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
             alt="A slice of lasagna on a plate."
           />
           <figcaption>Cats <em>love</em> lasagna.</figcaption>
+        </section>
         </figure>
+        <section class="secondPicture">
         <h3>Top 3 things cats hate:</h3>
         <ol>
           <li>flea treatment</li>
@@ -54,9 +54,9 @@
             alt="Five cats looking around a field."
           />
           <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+        </section>
         </figure>
       </section>
-      <section>
         <h2>Cat Form</h2>
         <form action="https://freecatphotoapp.com/submit-cat-photo">
           <fieldset>
@@ -109,13 +109,20 @@
           />
           <button type="submit">Submit</button>
         </form>
-      </section>
     </main>
     <footer>
-      <p>
-        No Copyright -
-        <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
-      </p>
+      <footer>
+        &copy; <span id="year">2024</span> | Luke Epperson | Utah |
+        <a
+          id="ttechLink"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://tooeletech.edu/"
+          >Tooele Technical College</a
+        >
+        <br />
+        Last Updated: <span id="date">Tue April 24 2024</span>
+      </footer>
     </footer>
   </body>
 </html>
