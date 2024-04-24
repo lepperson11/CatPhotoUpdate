@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  background-color: rgb(230, 217, 170);
+  color: black;
+}
+p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  max-width: 11.5%;
+  padding-left: 45%;
+}
+header {
+  background-color: #0adaf1;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  color: rgb(230, 217, 170);
+}
+.First {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
